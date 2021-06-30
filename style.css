@@ -1,0 +1,71 @@
+.card-img-top {
+  width: 100% !important;
+  height: 200px !important;
+  object-fit: contain !important;
+  vertical-align: middle !important;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  color: black;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: white;
+  width: 7rem;
+}
+
+.product-title,
+.product-price {
+  text-align: center;
+}
+
+.product-title {
+  max-width: 45ch;
+  margin: 1rem;
+}
+
+.product-price {
+  font-size: 1.5rem;
+  color: #b12704;
+}
+
+.modal-img {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+}
+
+.icon {
+  float: left;
+  width: 25px;
+  height: 26px;
+  font-size: 1.1rem;
+  margin-left: -5px;
+  color: white;
+  background-color: #232f3e;
+  border-radius: 3px;
+}
+
+.my-btn {
+  text-align: center;
+  width: 12rem;
+  height: 30px;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+}
+
+.my-modal-btn {
+  background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+  color: #111;
+}
+
+.my-modal-btn:focus {
+  border-color: #e77600;
+  box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+}
+
+.buy-btn {
+  background: linear-gradient(to bottom, #f6c88f, #ed9220);
+}
